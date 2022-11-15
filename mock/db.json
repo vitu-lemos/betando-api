@@ -1,0 +1,3282 @@
+{
+    "data": {
+        "leagueStandings": [],
+        "sport": {
+            "id": "FOOT",
+            "name": "Futebol",
+            "url": "/sport/futebol/"
+        },
+        "markets": [
+            {
+                "id": "StartTime",
+                "name": "Por hora de início",
+                "selected": true
+            },
+            {
+                "id": "Leagues",
+                "name": "Por competição"
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Futebol - Jogos nas próximas 3 horas",
+                "id": "r",
+                "url": "/sport/futebol/inglaterra/premier-league-cup/181614/",
+                "headers": [
+                    {
+                        "marketTypes": [
+                            "MR12",
+                            "MRES"
+                        ],
+                        "columns": [
+                            {
+                                "columnSpan": 1,
+                                "name": "1"
+                            },
+                            {
+                                "columnSpan": 1,
+                                "name": "X"
+                            },
+                            {
+                                "columnSpan": 1,
+                                "name": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "marketTypes": [
+                            "HCTG"
+                        ],
+                        "columns": [
+                            {
+                                "columnSpan": 1,
+                                "name": "+/- 2,5"
+                            }
+                        ]
+                    },
+                    {
+                        "marketTypes": [
+                            "BTSC"
+                        ],
+                        "columns": [
+                            {
+                                "columnSpan": 1,
+                                "name": "Ambos Marcam"
+                            }
+                        ]
+                    }
+                ],
+                "layout": 2,
+                "events": [
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/37362415",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Queens Park Rangers Sub-21 - Brighton & Hove Albion Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/queens-park-rangers-sub-21-brighton-hove-albion-sub-21/criar-aposta/29634669/",
+                        "betRadarId": 37362415,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Premier League Cup",
+                        "leagueId": "181614",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29634669",
+                        "name": "Queens Park Rangers Sub-21 - Brighton & Hove Albion Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/queens-park-rangers-sub-21-brighton-hove-albion-sub-21/29634669/",
+                        "markets": [
+                            {
+                                "id": "1246375381",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2893744364",
+                                        "name": "1",
+                                        "fullName": "Queens Park Rangers Sub-21",
+                                        "shortName": "",
+                                        "price": 4.3,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744364",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893744361",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.7,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744361",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2893744363",
+                                        "name": "2",
+                                        "fullName": "Brighton & Hove Albion Sub-21",
+                                        "shortName": "",
+                                        "price": 1.55,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744363",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246375392",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893744420",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.28,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744420",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893744421",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 3.05,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744421",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Queens Park Rangers Sub-21"
+                            },
+                            {
+                                "name": "Brighton & Hove Albion Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/37362417",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Sheffield United Sub-21 - Crystal Palace Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/sheffield-united-sub-21-crystal-palace-sub-21/criar-aposta/29634670/",
+                        "betRadarId": 37362417,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Premier League Cup",
+                        "leagueId": "181614",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29634670",
+                        "name": "Sheffield United Sub-21 - Crystal Palace Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/sheffield-united-sub-21-crystal-palace-sub-21/29634670/",
+                        "markets": [
+                            {
+                                "id": "1246375494",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2893744646",
+                                        "name": "1",
+                                        "fullName": "Sheffield United Sub-21",
+                                        "shortName": "",
+                                        "price": 2.65,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744646",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893744647",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744647",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2893744649",
+                                        "name": "2",
+                                        "fullName": "Crystal Palace Sub-21",
+                                        "shortName": "",
+                                        "price": 2.2,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744649",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246375783",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893745375",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.34,
+                                        "handicap": 2.5,
+                                        "betRef": "2893745375",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893745376",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.77,
+                                        "handicap": 2.5,
+                                        "betRef": "2893745376",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246375504",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893744705",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.33,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744705",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893744706",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.82,
+                                        "handicap": 0.0,
+                                        "betRef": "2893744706",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Sheffield United Sub-21"
+                            },
+                            {
+                                "name": "Crystal Palace Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Arsenal Sub-21 - Monaco Sub-21",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/arsenal-sub-21-monaco-sub-21/criar-aposta/29659753/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Clubes internacionais",
+                        "regionId": "11396",
+                        "leagueDescription": "Premier League International Cup",
+                        "leagueId": "187246",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29659753",
+                        "name": "Arsenal Sub-21 - Monaco Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/arsenal-sub-21-monaco-sub-21/29659753/",
+                        "markets": [
+                            {
+                                "id": "1246868155",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2895789042",
+                                        "name": "1",
+                                        "fullName": "Arsenal Sub-21",
+                                        "shortName": "",
+                                        "price": 1.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2895789042",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895789006",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.55,
+                                        "handicap": 0.0,
+                                        "betRef": "2895789006",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2895789007",
+                                        "name": "2",
+                                        "fullName": "Monaco Sub-21",
+                                        "shortName": "",
+                                        "price": 3.45,
+                                        "handicap": 0.0,
+                                        "betRef": "2895789007",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Arsenal Sub-21"
+                            },
+                            {
+                                "name": "Monaco Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Atletico Nacional II - Real Santuario",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/atletico-nacional-ii-real-santuario/criar-aposta/29659549/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Colômbia",
+                        "regionId": "11333",
+                        "leagueDescription": "Liga Antioquena",
+                        "leagueId": "196068",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29659549",
+                        "name": "Atletico Nacional II - Real Santuario",
+                        "startTime": 1668452400000,
+                        "url": "/odds/atletico-nacional-ii-real-santuario/29659549/",
+                        "markets": [
+                            {
+                                "id": "1246863899",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2895773380",
+                                        "name": "1",
+                                        "fullName": "Atletico Nacional II",
+                                        "shortName": "",
+                                        "price": 1.62,
+                                        "handicap": 0.0,
+                                        "betRef": "2895773380",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895773381",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2895773381",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2895773382",
+                                        "name": "2",
+                                        "fullName": "Real Santuario",
+                                        "shortName": "",
+                                        "price": 3.85,
+                                        "handicap": 0.0,
+                                        "betRef": "2895773382",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Atletico Nacional II"
+                            },
+                            {
+                                "name": "Real Santuario"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/36393115",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Gent Sub-21 - KV Oostende Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/gent-sub-21-kv-oostende-sub-21/criar-aposta/29603940/",
+                        "betRadarId": 36393115,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Bélgica",
+                        "regionId": "11324",
+                        "leagueDescription": "Beker Pro League Sub-21",
+                        "leagueId": "191347",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29603940",
+                        "name": "Gent Sub-21 - KV Oostende Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/gent-sub-21-kv-oostende-sub-21/29603940/",
+                        "markets": [
+                            {
+                                "id": "1245634896",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2890957981",
+                                        "name": "1",
+                                        "fullName": "Gent Sub-21",
+                                        "shortName": "",
+                                        "price": 2.7,
+                                        "handicap": 0.0,
+                                        "betRef": "2890957981",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890957982",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.65,
+                                        "handicap": 0.0,
+                                        "betRef": "2890957982",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2890957983",
+                                        "name": "2",
+                                        "fullName": "KV Oostende Sub-21",
+                                        "shortName": "",
+                                        "price": 2.25,
+                                        "handicap": 0.0,
+                                        "betRef": "2890957983",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246173021",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893075281",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.35,
+                                        "handicap": 2.5,
+                                        "betRef": "2893075281",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893075282",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.72,
+                                        "handicap": 2.5,
+                                        "betRef": "2893075282",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1245634907",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2890958051",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.31,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958051",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958052",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.87,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958052",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Gent Sub-21"
+                            },
+                            {
+                                "name": "KV Oostende Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/36393119",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "KAS Eupen Sub-21 - Standard de Liége Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/kas-eupen-sub-21-standard-de-liege-sub-21/criar-aposta/29603941/",
+                        "betRadarId": 36393119,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Bélgica",
+                        "regionId": "11324",
+                        "leagueDescription": "Beker Pro League Sub-21",
+                        "leagueId": "191347",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29603941",
+                        "name": "KAS Eupen Sub-21 - Standard de Liége Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/kas-eupen-sub-21-standard-de-liege-sub-21/29603941/",
+                        "markets": [
+                            {
+                                "id": "1245634929",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2890958100",
+                                        "name": "1",
+                                        "fullName": "KAS Eupen Sub-21",
+                                        "shortName": "",
+                                        "price": 2.77,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958100",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958101",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.7,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958101",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2890958102",
+                                        "name": "2",
+                                        "fullName": "Standard de Liége Sub-21",
+                                        "shortName": "",
+                                        "price": 2.18,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958102",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246430009",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893904472",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.45,
+                                        "handicap": 2.5,
+                                        "betRef": "2893904472",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893904473",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.37,
+                                        "handicap": 2.5,
+                                        "betRef": "2893904473",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1245634940",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2890958158",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.42,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958158",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958159",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.47,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958159",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "KAS Eupen Sub-21"
+                            },
+                            {
+                                "name": "Standard de Liége Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/36393121",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "KVC Westerlo Sub-21 - Lierse Kempenzonen Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/kvc-westerlo-sub-21-lierse-kempenzonen-sub-21/criar-aposta/29603942/",
+                        "betRadarId": 36393121,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Bélgica",
+                        "regionId": "11324",
+                        "leagueDescription": "Beker Pro League Sub-21",
+                        "leagueId": "191347",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29603942",
+                        "name": "KVC Westerlo Sub-21 - Lierse Kempenzonen Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/kvc-westerlo-sub-21-lierse-kempenzonen-sub-21/29603942/",
+                        "markets": [
+                            {
+                                "id": "1245634963",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2890958222",
+                                        "name": "1",
+                                        "fullName": "KVC Westerlo Sub-21",
+                                        "shortName": "",
+                                        "price": 1.75,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958222",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958223",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.25,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958223",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2890958224",
+                                        "name": "2",
+                                        "fullName": "Lierse Kempenzonen Sub-21",
+                                        "shortName": "",
+                                        "price": 3.5,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958224",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246172901",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893074812",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.4,
+                                        "handicap": 2.5,
+                                        "betRef": "2893074812",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893074813",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.52,
+                                        "handicap": 2.5,
+                                        "betRef": "2893074813",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1245634973",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2890958280",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.44,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958280",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958281",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.42,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958281",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "KVC Westerlo Sub-21"
+                            },
+                            {
+                                "name": "Lierse Kempenzonen Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/36393113",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "SV Zulte Waregem Sub-21 - KV Kortrijk Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/sv-zulte-waregem-sub-21-kv-kortrijk-sub-21/criar-aposta/29603943/",
+                        "betRadarId": 36393113,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Bélgica",
+                        "regionId": "11324",
+                        "leagueDescription": "Beker Pro League Sub-21",
+                        "leagueId": "191347",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29603943",
+                        "name": "SV Zulte Waregem Sub-21 - KV Kortrijk Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/sv-zulte-waregem-sub-21-kv-kortrijk-sub-21/29603943/",
+                        "markets": [
+                            {
+                                "id": "1245635006",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2890958374",
+                                        "name": "1",
+                                        "fullName": "SV Zulte Waregem Sub-21",
+                                        "shortName": "",
+                                        "price": 2.18,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958374",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958375",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.05,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958375",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2890958376",
+                                        "name": "2",
+                                        "fullName": "KV Kortrijk Sub-21",
+                                        "shortName": "",
+                                        "price": 2.6,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958376",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246173043",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893075398",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.37,
+                                        "handicap": 2.5,
+                                        "betRef": "2893075398",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893075399",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.65,
+                                        "handicap": 2.5,
+                                        "betRef": "2893075399",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1245635017",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2890958432",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.37,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958432",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958433",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.65,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958433",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "SV Zulte Waregem Sub-21"
+                            },
+                            {
+                                "name": "KV Kortrijk Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/36393123",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "KV Mechelen Sub-21 - Lommel SK Sub-21",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/kv-mechelen-sub-21-lommel-sk-sub-21/criar-aposta/29603944/",
+                        "betRadarId": 36393123,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Bélgica",
+                        "regionId": "11324",
+                        "leagueDescription": "Beker Pro League Sub-21",
+                        "leagueId": "191347",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29603944",
+                        "name": "KV Mechelen Sub-21 - Lommel SK Sub-21",
+                        "startTime": 1668452400000,
+                        "url": "/odds/kv-mechelen-sub-21-lommel-sk-sub-21/29603944/",
+                        "markets": [
+                            {
+                                "id": "1245635049",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2890958540",
+                                        "name": "1",
+                                        "fullName": "KV Mechelen Sub-21",
+                                        "shortName": "",
+                                        "price": 1.6,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958540",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958541",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958541",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2890958542",
+                                        "name": "2",
+                                        "fullName": "Lommel SK Sub-21",
+                                        "shortName": "",
+                                        "price": 3.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958542",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246173067",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893075518",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.3,
+                                        "handicap": 2.5,
+                                        "betRef": "2893075518",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893075519",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.95,
+                                        "handicap": 2.5,
+                                        "betRef": "2893075519",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1245635059",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2890958598",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958598",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2890958599",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.52,
+                                        "handicap": 0.0,
+                                        "betRef": "2890958599",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "KV Mechelen Sub-21"
+                            },
+                            {
+                                "name": "Lommel SK Sub-21"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/34138211",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Jong Ajax - FC Den Bosch",
+                        "totalMarketsAvailable": 210,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/jong-ajax-fc-den-bosch/criar-aposta/28601963/",
+                        "betRadarId": 34138211,
+                        "notes": "",
+                        "tvChannel": "",
+                        "streamingAvailable": true,
+                        "regionName": "Holanda",
+                        "regionId": "11376",
+                        "leagueDescription": "Eerste Divisie",
+                        "leagueId": "17370",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "28601963",
+                        "name": "Jong Ajax - FC Den Bosch",
+                        "startTime": 1668452400000,
+                        "url": "/odds/jong-ajax-fc-den-bosch/28601963/",
+                        "markets": [
+                            {
+                                "id": "1225323195",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2804817950",
+                                        "name": "1",
+                                        "fullName": "Jong Ajax",
+                                        "shortName": "",
+                                        "price": 1.65,
+                                        "handicap": 0.0,
+                                        "betRef": "2804817950",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2804817951",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.15,
+                                        "handicap": 0.0,
+                                        "betRef": "2804817951",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2804817952",
+                                        "name": "2",
+                                        "fullName": "FC Den Bosch",
+                                        "shortName": "",
+                                        "price": 4.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2804817952",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1238719392",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2861404365",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.37,
+                                        "handicap": 2.5,
+                                        "betRef": "2861404365",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2861404366",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.95,
+                                        "handicap": 2.5,
+                                        "betRef": "2861404366",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1225323203",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2804817975",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.39,
+                                        "handicap": 0.0,
+                                        "betRef": "2804817975",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2804817976",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.75,
+                                        "handicap": 0.0,
+                                        "betRef": "2804817976",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Jong Ajax"
+                            },
+                            {
+                                "name": "FC Den Bosch"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/34138213",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Jong FC Utrecht - MVV Maastricht",
+                        "totalMarketsAvailable": 207,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/jong-fc-utrecht-mvv-maastricht/criar-aposta/28601964/",
+                        "betRadarId": 34138213,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Holanda",
+                        "regionId": "11376",
+                        "leagueDescription": "Eerste Divisie",
+                        "leagueId": "17370",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "28601964",
+                        "name": "Jong FC Utrecht - MVV Maastricht",
+                        "startTime": 1668452400000,
+                        "url": "/odds/jong-fc-utrecht-mvv-maastricht/28601964/",
+                        "markets": [
+                            {
+                                "id": "1225323382",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2804818569",
+                                        "name": "1",
+                                        "fullName": "Jong FC Utrecht",
+                                        "shortName": "",
+                                        "price": 2.25,
+                                        "handicap": 0.0,
+                                        "betRef": "2804818569",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2804818570",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.85,
+                                        "handicap": 0.0,
+                                        "betRef": "2804818570",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2804818571",
+                                        "name": "2",
+                                        "fullName": "MVV Maastricht",
+                                        "shortName": "",
+                                        "price": 2.72,
+                                        "handicap": 0.0,
+                                        "betRef": "2804818571",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1238719423",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2861404435",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.57,
+                                        "handicap": 2.5,
+                                        "betRef": "2861404435",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2861404436",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.32,
+                                        "handicap": 2.5,
+                                        "betRef": "2861404436",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1225323390",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2804818594",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.5,
+                                        "handicap": 0.0,
+                                        "betRef": "2804818594",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2804818595",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2804818595",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Jong FC Utrecht"
+                            },
+                            {
+                                "name": "MVV Maastricht"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/34416609",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "FC Botosani - AFC Hermannstadt",
+                        "totalMarketsAvailable": 397,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/fc-botosani-afc-hermannstadt/criar-aposta/28898842/",
+                        "betRadarId": 34416609,
+                        "notes": "",
+                        "tvChannel": "",
+                        "streamingAvailable": true,
+                        "regionName": "Romênia",
+                        "regionId": "11383",
+                        "leagueDescription": "Liga 1",
+                        "leagueId": "17088",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "28898842",
+                        "name": "FC Botosani - AFC Hermannstadt",
+                        "startTime": 1668452400000,
+                        "url": "/odds/fc-botosani-afc-hermannstadt/28898842/",
+                        "markets": [
+                            {
+                                "id": "1231370962",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2830207296",
+                                        "name": "1",
+                                        "fullName": "FC Botosani",
+                                        "shortName": "",
+                                        "price": 3.1,
+                                        "handicap": 0.0,
+                                        "betRef": "2830207296",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2830207297",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 2.87,
+                                        "handicap": 0.0,
+                                        "betRef": "2830207297",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2830207298",
+                                        "name": "2",
+                                        "fullName": "AFC Hermannstadt",
+                                        "shortName": "",
+                                        "price": 2.62,
+                                        "handicap": 0.0,
+                                        "betRef": "2830207298",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1231814331",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2832089959",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 2.95,
+                                        "handicap": 2.5,
+                                        "betRef": "2832089959",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2832089960",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.4,
+                                        "handicap": 2.5,
+                                        "betRef": "2832089960",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1231370971",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2830207323",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 2.3,
+                                        "handicap": 0.0,
+                                        "betRef": "2830207323",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2830207324",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 1.57,
+                                        "handicap": 0.0,
+                                        "betRef": "2830207324",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "FC Botosani"
+                            },
+                            {
+                                "name": "AFC Hermannstadt"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/37364275",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Atletico Fenix Montevideo II - Nacional Montevideo II",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/atletico-fenix-montevideo-ii-nacional-montevideo-ii/criar-aposta/29659399/",
+                        "betRadarId": 37364275,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Uruguai",
+                        "regionId": "11388",
+                        "leagueDescription": "Primera Division Reserva",
+                        "leagueId": "17733",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29659399",
+                        "name": "Atletico Fenix Montevideo II - Nacional Montevideo II",
+                        "startTime": 1668452400000,
+                        "url": "/odds/atletico-fenix-montevideo-ii-nacional-montevideo-ii/29659399/",
+                        "markets": [
+                            {
+                                "id": "1246859713",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2895757742",
+                                        "name": "1",
+                                        "fullName": "Atletico Fenix Montevideo II",
+                                        "shortName": "",
+                                        "price": 3.45,
+                                        "handicap": 0.0,
+                                        "betRef": "2895757742",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895757743",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.75,
+                                        "handicap": 0.0,
+                                        "betRef": "2895757743",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2895757744",
+                                        "name": "2",
+                                        "fullName": "Nacional Montevideo II",
+                                        "shortName": "",
+                                        "price": 1.83,
+                                        "handicap": 0.0,
+                                        "betRef": "2895757744",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Atletico Fenix Montevideo II"
+                            },
+                            {
+                                "name": "Nacional Montevideo II"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Atletico River Plate II - Deportivo Maldonado II",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/atletico-river-plate-ii-deportivo-maldonado-ii/criar-aposta/29659401/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Uruguai",
+                        "regionId": "11388",
+                        "leagueDescription": "Primera Division Reserva",
+                        "leagueId": "17733",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29659401",
+                        "name": "Atletico River Plate II - Deportivo Maldonado II",
+                        "startTime": 1668452400000,
+                        "url": "/odds/atletico-river-plate-ii-deportivo-maldonado-ii/29659401/",
+                        "markets": [
+                            {
+                                "id": "1246859768",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2895757895",
+                                        "name": "1",
+                                        "fullName": "Atletico River Plate II",
+                                        "shortName": "",
+                                        "price": 1.83,
+                                        "handicap": 0.0,
+                                        "betRef": "2895757895",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895757896",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2895757896",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2895757897",
+                                        "name": "2",
+                                        "fullName": "Deportivo Maldonado II",
+                                        "shortName": "",
+                                        "price": 3.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2895757897",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246859865",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2895758222",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.88,
+                                        "handicap": 2.5,
+                                        "betRef": "2895758222",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895758223",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.72,
+                                        "handicap": 2.5,
+                                        "betRef": "2895758223",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Atletico River Plate II"
+                            },
+                            {
+                                "name": "Deportivo Maldonado II"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/37364271",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Boston River II - Club Atletico Rentistas II",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/boston-river-ii-club-atletico-rentistas-ii/criar-aposta/29659402/",
+                        "betRadarId": 37364271,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Uruguai",
+                        "regionId": "11388",
+                        "leagueDescription": "Primera Division Reserva",
+                        "leagueId": "17733",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29659402",
+                        "name": "Boston River II - Club Atletico Rentistas II",
+                        "startTime": 1668452400000,
+                        "url": "/odds/boston-river-ii-club-atletico-rentistas-ii/29659402/",
+                        "markets": [
+                            {
+                                "id": "1246859984",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2895758659",
+                                        "name": "1",
+                                        "fullName": "Boston River II",
+                                        "shortName": "",
+                                        "price": 1.52,
+                                        "handicap": 0.0,
+                                        "betRef": "2895758659",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895758660",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.3,
+                                        "handicap": 0.0,
+                                        "betRef": "2895758660",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2895758661",
+                                        "name": "2",
+                                        "fullName": "Club Atletico Rentistas II",
+                                        "shortName": "",
+                                        "price": 4.85,
+                                        "handicap": 0.0,
+                                        "betRef": "2895758661",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246860005",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2895758740",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.7,
+                                        "handicap": 2.5,
+                                        "betRef": "2895758740",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895758741",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.93,
+                                        "handicap": 2.5,
+                                        "betRef": "2895758741",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Boston River II"
+                            },
+                            {
+                                "name": "Club Atletico Rentistas II"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Plaza Colonia II - Liverpool Montevideo II",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/plaza-colonia-ii-liverpool-montevideo-ii/criar-aposta/29659407/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Uruguai",
+                        "regionId": "11388",
+                        "leagueDescription": "Primera Division Reserva",
+                        "leagueId": "17733",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29659407",
+                        "name": "Plaza Colonia II - Liverpool Montevideo II",
+                        "startTime": 1668452400000,
+                        "url": "/odds/plaza-colonia-ii-liverpool-montevideo-ii/29659407/",
+                        "markets": [
+                            {
+                                "id": "1246860152",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2895759240",
+                                        "name": "1",
+                                        "fullName": "Plaza Colonia II",
+                                        "shortName": "",
+                                        "price": 4.15,
+                                        "handicap": 0.0,
+                                        "betRef": "2895759240",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895759241",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.6,
+                                        "handicap": 0.0,
+                                        "betRef": "2895759241",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2895759242",
+                                        "name": "2",
+                                        "fullName": "Liverpool Montevideo II",
+                                        "shortName": "",
+                                        "price": 1.72,
+                                        "handicap": 0.0,
+                                        "betRef": "2895759242",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246860462",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668452400000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2895760436",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.65,
+                                        "handicap": 2.5,
+                                        "betRef": "2895760436",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2895760437",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.98,
+                                        "handicap": 2.5,
+                                        "betRef": "2895760437",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Plaza Colonia II"
+                            },
+                            {
+                                "name": "Liverpool Montevideo II"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/37245777",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Chelmsford City - Barnet FC",
+                        "totalMarketsAvailable": 153,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/chelmsford-city-barnet-fc/criar-aposta/29452551/",
+                        "betRadarId": 37245777,
+                        "notes": "Primeiro jogo: 1-1",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "FA Cup",
+                        "leagueId": "218",
+                        "streamOverlayMarketIds": [],
+                        "id": "29452551",
+                        "name": "Chelmsford City - Barnet FC",
+                        "startTime": 1668454200000,
+                        "url": "/odds/chelmsford-city-barnet-fc/29452551/",
+                        "markets": [
+                            {
+                                "id": "1242823832",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2878512724",
+                                        "name": "1",
+                                        "fullName": "Chelmsford City",
+                                        "shortName": "",
+                                        "price": 2.67,
+                                        "handicap": 0.0,
+                                        "betRef": "2878512724",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2878512725",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2878512725",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2878512726",
+                                        "name": "2",
+                                        "fullName": "Barnet FC",
+                                        "shortName": "",
+                                        "price": 2.42,
+                                        "handicap": 0.0,
+                                        "betRef": "2878512726",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1242823990",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2878513213",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.7,
+                                        "handicap": 2.5,
+                                        "betRef": "2878513213",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2878513214",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.05,
+                                        "handicap": 2.5,
+                                        "betRef": "2878513214",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1242823874",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2878512921",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.55,
+                                        "handicap": 0.0,
+                                        "betRef": "2878512921",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2878512922",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.3,
+                                        "handicap": 0.0,
+                                        "betRef": "2878512922",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Chelmsford City"
+                            },
+                            {
+                                "name": "Barnet FC"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/35725223",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "Virtus Entella - Cesena",
+                        "totalMarketsAvailable": 139,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/virtus-entella-cesena/criar-aposta/29183150/",
+                        "betRadarId": 35725223,
+                        "notes": "",
+                        "tvChannel": "",
+                        "streamingAvailable": true,
+                        "regionName": "Itália",
+                        "regionId": "87",
+                        "leagueDescription": "Série C",
+                        "leagueId": "17714",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29183150",
+                        "name": "Virtus Entella - Cesena",
+                        "startTime": 1668454200000,
+                        "url": "/odds/virtus-entella-cesena/29183150/",
+                        "markets": [
+                            {
+                                "id": "1237199613",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2854973082",
+                                        "name": "1",
+                                        "fullName": "Virtus Entella",
+                                        "shortName": "",
+                                        "price": 2.7,
+                                        "handicap": 0.0,
+                                        "betRef": "2854973082",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2854973084",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.0,
+                                        "handicap": 0.0,
+                                        "betRef": "2854973084",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2854973083",
+                                        "name": "2",
+                                        "fullName": "Cesena",
+                                        "shortName": "",
+                                        "price": 2.65,
+                                        "handicap": 0.0,
+                                        "betRef": "2854973083",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1239800022",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2865956669",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 2.3,
+                                        "handicap": 2.5,
+                                        "betRef": "2865956669",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2865956670",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.55,
+                                        "handicap": 2.5,
+                                        "betRef": "2865956670",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1237199651",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2854973390",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.95,
+                                        "handicap": 0.0,
+                                        "betRef": "2854973390",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2854973391",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 1.75,
+                                        "handicap": 0.0,
+                                        "betRef": "2854973391",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Virtus Entella"
+                            },
+                            {
+                                "name": "Cesena"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/35592893",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "El Palmar CF - Racing Murcia FC",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/el-palmar-cf-racing-murcia-fc/criar-aposta/29469844/",
+                        "betRadarId": 35592893,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Espanha",
+                        "regionId": "2",
+                        "leagueDescription": "Tercera Division RFEF",
+                        "leagueId": "17592",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29469844",
+                        "name": "El Palmar CF - Racing Murcia FC",
+                        "startTime": 1668454200000,
+                        "url": "/odds/el-palmar-cf-racing-murcia-fc/29469844/",
+                        "markets": [
+                            {
+                                "id": "1243071706",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2879768585",
+                                        "name": "1",
+                                        "fullName": "El Palmar CF",
+                                        "shortName": "",
+                                        "price": 3.3,
+                                        "handicap": 0.0,
+                                        "betRef": "2879768585",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2879768586",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.15,
+                                        "handicap": 0.0,
+                                        "betRef": "2879768586",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2879768587",
+                                        "name": "2",
+                                        "fullName": "Racing Murcia FC",
+                                        "shortName": "",
+                                        "price": 2.15,
+                                        "handicap": 0.0,
+                                        "betRef": "2879768587",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246263076",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893397112",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 2.0,
+                                        "handicap": 2.5,
+                                        "betRef": "2893397112",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893397113",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.65,
+                                        "handicap": 2.5,
+                                        "betRef": "2893397113",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1243071717",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454200000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2879768643",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.78,
+                                        "handicap": 0.0,
+                                        "betRef": "2879768643",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2879768644",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 1.83,
+                                        "handicap": 0.0,
+                                        "betRef": "2879768644",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "El Palmar CF"
+                            },
+                            {
+                                "name": "Racing Murcia FC"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [
+                            {
+                                "url": "https://s5.sir.sportradar.com/betano/br/match/37390223",
+                                "providerId": 1
+                            }
+                        ],
+                        "sportId": "FOOT",
+                        "shortName": "FC Nouadhibou - Concorde",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/fc-nouadhibou-concorde/criar-aposta/29635043/",
+                        "betRadarId": 37390223,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Mauritânia",
+                        "regionId": "189260",
+                        "leagueDescription": "1ª Divisão",
+                        "leagueId": "191718",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29635043",
+                        "name": "FC Nouadhibou - Concorde",
+                        "startTime": 1668454800000,
+                        "url": "/odds/fc-nouadhibou-concorde/29635043/",
+                        "markets": [
+                            {
+                                "id": "1246385979",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668454800000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2893773089",
+                                        "name": "1",
+                                        "fullName": "FC Nouadhibou",
+                                        "shortName": "",
+                                        "price": 1.57,
+                                        "handicap": 0.0,
+                                        "betRef": "2893773089",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893773090",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.6,
+                                        "handicap": 0.0,
+                                        "betRef": "2893773090",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2893773091",
+                                        "name": "2",
+                                        "fullName": "Concorde",
+                                        "shortName": "",
+                                        "price": 5.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2893773091",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246386093",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668454800000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2893773338",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 2.05,
+                                        "handicap": 2.5,
+                                        "betRef": "2893773338",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893773339",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 1.62,
+                                        "handicap": 2.5,
+                                        "betRef": "2893773339",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "FC Nouadhibou"
+                            },
+                            {
+                                "name": "Concorde"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Hitchin Town - Coalville Town",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/hitchin-town-coalville-town/criar-aposta/29637067/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Southern League - Premier Division Central",
+                        "leagueId": "192992",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29637067",
+                        "name": "Hitchin Town - Coalville Town",
+                        "startTime": 1668455100000,
+                        "url": "/odds/hitchin-town-coalville-town/29637067/",
+                        "markets": [
+                            {
+                                "id": "1246489631",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2894080295",
+                                        "name": "1",
+                                        "fullName": "Hitchin Town",
+                                        "shortName": "",
+                                        "price": 4.85,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080295",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894080306",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 4.15,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080306",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2894080307",
+                                        "name": "2",
+                                        "fullName": "Coalville Town",
+                                        "shortName": "",
+                                        "price": 1.55,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080307",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246489720",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2894080541",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.53,
+                                        "handicap": 2.5,
+                                        "betRef": "2894080541",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894080542",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.2,
+                                        "handicap": 2.5,
+                                        "betRef": "2894080542",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246489642",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2894080356",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.6,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080356",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894080357",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.05,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080357",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Hitchin Town"
+                            },
+                            {
+                                "name": "Coalville Town"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Kings Langley - Rushall Olympic",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/kings-langley-rushall-olympic/criar-aposta/29637068/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Southern League - Premier Division Central",
+                        "leagueId": "192992",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29637068",
+                        "name": "Kings Langley - Rushall Olympic",
+                        "startTime": 1668455100000,
+                        "url": "/odds/kings-langley-rushall-olympic/29637068/",
+                        "markets": [
+                            {
+                                "id": "1246489786",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2894080770",
+                                        "name": "1",
+                                        "fullName": "Kings Langley",
+                                        "shortName": "",
+                                        "price": 3.4,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080770",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894080784",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.7,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080784",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2894080785",
+                                        "name": "2",
+                                        "fullName": "Rushall Olympic",
+                                        "shortName": "",
+                                        "price": 1.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080785",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246489832",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2894080911",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.5,
+                                        "handicap": 2.5,
+                                        "betRef": "2894080911",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894080912",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.25,
+                                        "handicap": 2.5,
+                                        "betRef": "2894080912",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246489797",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2894080858",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.47,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080858",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894080787",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.32,
+                                        "handicap": 0.0,
+                                        "betRef": "2894080787",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Kings Langley"
+                            },
+                            {
+                                "name": "Rushall Olympic"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Barwell - St Ives Town",
+                        "totalMarketsAvailable": 31,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/barwell-st-ives-town/criar-aposta/29639078/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Southern League - Premier Division Central",
+                        "leagueId": "192992",
+                        "streamOverlayMarketIds": [],
+                        "id": "29639078",
+                        "name": "Barwell - St Ives Town",
+                        "startTime": 1668455100000,
+                        "url": "/odds/barwell-st-ives-town/29639078/",
+                        "markets": [
+                            {
+                                "id": "1246558722",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2894303634",
+                                        "name": "1",
+                                        "fullName": "Barwell",
+                                        "shortName": "",
+                                        "price": 2.22,
+                                        "handicap": 0.0,
+                                        "betRef": "2894303634",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894303635",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.65,
+                                        "handicap": 0.0,
+                                        "betRef": "2894303635",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2894303636",
+                                        "name": "2",
+                                        "fullName": "St Ives Town",
+                                        "shortName": "",
+                                        "price": 2.72,
+                                        "handicap": 0.0,
+                                        "betRef": "2894303636",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246558781",
+                                "name": "Total de Gols Mais/Menos",
+                                "type": "HCTG",
+                                "handicap": 2.5,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2894303815",
+                                        "name": "Mais de 2.5",
+                                        "shortName": "+",
+                                        "price": 1.5,
+                                        "handicap": 2.5,
+                                        "betRef": "2894303815",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894303816",
+                                        "name": "Menos de 2.5",
+                                        "shortName": "-",
+                                        "price": 2.25,
+                                        "handicap": 2.5,
+                                        "betRef": "2894303816",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            },
+                            {
+                                "id": "1246558733",
+                                "name": "Ambas equipes Marcam",
+                                "type": "BTSC",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 2,
+                                "selections": [
+                                    {
+                                        "id": "2894303652",
+                                        "name": "Sim",
+                                        "shortName": "Sim ",
+                                        "price": 1.45,
+                                        "handicap": 0.0,
+                                        "betRef": "2894303652",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2894303653",
+                                        "name": "Não",
+                                        "shortName": "Não",
+                                        "price": 2.37,
+                                        "handicap": 0.0,
+                                        "betRef": "2894303653",
+                                        "renderingLayout": 2,
+                                        "columnIndex": 1
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Barwell"
+                            },
+                            {
+                                "name": "St Ives Town"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Brighouse Town - Pontefract Collieries",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/brighouse-town-pontefract-collieries/criar-aposta/29635859/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Northern League - Division One East",
+                        "leagueId": "193119",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29635859",
+                        "name": "Brighouse Town - Pontefract Collieries",
+                        "startTime": 1668455100000,
+                        "url": "/odds/brighouse-town-pontefract-collieries/29635859/",
+                        "markets": [
+                            {
+                                "id": "1246433645",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2893914089",
+                                        "name": "1",
+                                        "fullName": "Brighouse Town",
+                                        "shortName": "",
+                                        "price": 3.25,
+                                        "handicap": 0.0,
+                                        "betRef": "2893914089",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893914090",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.9,
+                                        "handicap": 0.0,
+                                        "betRef": "2893914090",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2893914091",
+                                        "name": "2",
+                                        "fullName": "Pontefract Collieries",
+                                        "shortName": "",
+                                        "price": 1.85,
+                                        "handicap": 0.0,
+                                        "betRef": "2893914091",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Brighouse Town"
+                            },
+                            {
+                                "name": "Pontefract Collieries"
+                            }
+                        ]
+                    },
+                    {
+                        "stats": [],
+                        "sportId": "FOOT",
+                        "shortName": "Hashtag United - New Salamis",
+                        "totalMarketsAvailable": 16,
+                        "hasMatchCombo": true,
+                        "matchComboUrl": "/odds/hashtag-united-new-salamis/criar-aposta/29636085/",
+                        "betRadarId": 0,
+                        "notes": "",
+                        "tvChannel": "",
+                        "regionName": "Inglaterra",
+                        "regionId": "1",
+                        "leagueDescription": "Isthmian League - Division One North",
+                        "leagueId": "193122",
+                        "streamOverlayMarketIds": [],
+                        "willGoLive": true,
+                        "id": "29636085",
+                        "name": "Hashtag United - New Salamis",
+                        "startTime": 1668455100000,
+                        "url": "/odds/hashtag-united-new-salamis/29636085/",
+                        "markets": [
+                            {
+                                "id": "1246439276",
+                                "name": "Resultado Final",
+                                "type": "MRES",
+                                "handicap": 0.0,
+                                "marketCloseTimeMillis": 1668455100000,
+                                "renderingLayout": 4,
+                                "selections": [
+                                    {
+                                        "id": "2893930934",
+                                        "name": "1",
+                                        "fullName": "Hashtag United",
+                                        "shortName": "",
+                                        "price": 1.95,
+                                        "handicap": 0.0,
+                                        "betRef": "2893930934",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 0
+                                    },
+                                    {
+                                        "id": "2893930935",
+                                        "name": "X",
+                                        "fullName": "Empate",
+                                        "shortName": "",
+                                        "price": 3.7,
+                                        "handicap": 0.0,
+                                        "betRef": "2893930935",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 1
+                                    },
+                                    {
+                                        "id": "2893930936",
+                                        "name": "2",
+                                        "fullName": "New Salamis",
+                                        "shortName": "",
+                                        "price": 3.15,
+                                        "handicap": 0.0,
+                                        "betRef": "2893930936",
+                                        "renderingLayout": 4,
+                                        "columnIndex": 2
+                                    }
+                                ],
+                                "scorerSelections": [],
+                                "exactScoreSelections": []
+                            }
+                        ],
+                        "participants": [
+                            {
+                                "name": "Hashtag United"
+                            },
+                            {
+                                "name": "New Salamis"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "leaguesList": [],
+        "breadcrumb": [
+            {
+                "name": "Página principal",
+                "title": "Betano",
+                "url": "/"
+            },
+            {
+                "name": "Futebol",
+                "title": "Futebol",
+                "url": "/sport/futebol/"
+            },
+            {
+                "name": "Próximas 3 horas Próximos jogos"
+            }
+        ],
+        "nextHoursTabs": [
+            {
+                "id": 0,
+                "name": "Todos",
+                "url": "/sport/futebol/"
+            },
+            {
+                "id": 3,
+                "name": "3 horas",
+                "url": "/sport/futebol/proximas-3-horas/",
+                "selected": true
+            },
+            {
+                "id": 12,
+                "name": "12 horas",
+                "url": "/sport/futebol/proximas-12-horas/"
+            },
+            {
+                "id": 24,
+                "name": "24 horas",
+                "url": "/sport/futebol/jogos-de-hoje/"
+            }
+        ],
+        "metaData": {
+            "pageTitle": "Jogos nas Próximas 3 Horas - Apostas e Odds  | Betano"
+        },
+        "seoTranslations": {
+            "regionNames": {
+                "el-GR": "agglia",
+                "ro-RO": "anglia",
+                "en-GR": "england",
+                "el-CY": "agglia",
+                "en-CY": "england",
+                "cs-CZ": "anglie",
+                "pt-PT": "inglaterra",
+                "de-DE": "england",
+                "en-DE": "england",
+                "pt-BR": "inglaterra",
+                "en-BR": "england",
+                "bg-BG": "angliya",
+                "en-BG": "england",
+                "en-CZ": "england",
+                "es-CL": "inglaterra",
+                "en-CL": "england",
+                "es-PE": "inglaterra",
+                "en-PE": "england",
+                "es-EC": "inglaterra",
+                "en-EC": "england",
+                "en-CA": "england"
+            },
+            "leagueNames": {
+                "el-GR": "fa-cup",
+                "ro-RO": "fa-cup",
+                "en-GR": "fa-cup",
+                "el-CY": "fa-cup",
+                "en-CY": "fa-cup",
+                "cs-CZ": "fa-cup",
+                "pt-PT": "fa-cup",
+                "de-DE": "fa-cup",
+                "en-DE": "fa-cup",
+                "pt-BR": "fa-cup",
+                "en-BR": "fa-cup",
+                "bg-BG": "fa-kep",
+                "en-BG": "fa-cup",
+                "en-CZ": "fa-cup",
+                "es-CL": "copa-de-la-fa",
+                "en-CL": "fa-cup",
+                "es-PE": "copa-de-la-fa",
+                "en-PE": "fa-cup",
+                "es-EC": "copa-de-la-fa",
+                "en-EC": "fa-cup",
+                "en-CA": "fa-cup"
+            }
+        }
+    },
+    "structureComponents": {
+        "topNotification": {},
+        "panicButton": {
+            "data": {
+                "currentDateTime": "2022-11-14T18:41:55.6284215",
+                "customerExclusionUrl": "/api/panicbutton/activatecustomerexclusion",
+                "errorCode": 0,
+                "isDataSuccess": true
+            },
+            "errors": []
+        }
+    },
+    "user": {
+        "birthYear": 0
+    },
+    "companyId": 0
+}
