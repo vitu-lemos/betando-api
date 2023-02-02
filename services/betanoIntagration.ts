@@ -1,10 +1,10 @@
 import { TBetEvent, TBetEventMarket } from "../types";
+import { BET_MAX_ODD, FINAL_RESULT_MARKET_NAME } from "../constants";
 import betanoInstance from "./betanoApi";
 
 const marketSelectionWithMinimalPrice = (market: TBetEventMarket) => {
-  const MAX_PRICE = 1.3;
   const selectionWithMinimalPrice = market.selections.find((selection: any) => {
-    const isMatchPrice = selection.price <= MAX_PRICE;
+    const isMatchPrice = selection.price <= BET_MAX_ODD;
     return isMatchPrice;
   });
   if (selectionWithMinimalPrice) {
@@ -17,21 +17,15 @@ const marketSelectionWithMinimalPrice = (market: TBetEventMarket) => {
 };
 
 const getBestEvents = (events: Array<TBetEvent>) => {
-  // console.log("🚀 ~ file: betanoIntagration.ts ~ line 19 ~ getBestEvents ~ events", events)
-  const FINAL_RESULT_MARKET = "Resultado Final";
   const bestEvents: Array<TBetEvent> = [];
 
   events.forEach((event) => {
     let finalResultMarket = event.markets.find(
-      (market: any) => market.name === FINAL_RESULT_MARKET
+      (market: any) => market.name === FINAL_RESULT_MARKET_NAME
     );
 
     if (finalResultMarket) {
       const bestSelection = marketSelectionWithMinimalPrice(finalResultMarket);
-      console.log(
-        "🚀 ~ file: betanoIntagration.ts ~ line 30 ~ bestEvents ~ bestSelection",
-        bestSelection
-      );
 
       if (bestSelection) {
         const parsedMarket = finalResultMarket.selections.map((selection) => {
@@ -40,29 +34,29 @@ const getBestEvents = (events: Array<TBetEvent>) => {
           }
           return selection;
         });
+
+        const newEventMarkets = event.markets.map((market) => {
+          if (market.name === FINAL_RESULT_MARKET_NAME) {
+            return {
+              ...market,
+              selections: parsedMarket,
+            };
+          }
+          return market;
+        });
+
         bestEvents.push({
           ...event,
-          markets: [
-            {
-              ...event.markets,
-              ...finalResultMarket,
-              selections: parsedMarket,
-            },
-          ],
+          markets: newEventMarkets,
         });
       }
     }
   });
 
-  console.log(
-    "🚀 ~ file: betanoIntagration.ts ~ line 45 ~ getBestEvents ~ length",
-    bestEvents.length
-  );
-
   return bestEvents;
 };
 
-const getNextEvents = async ({
+const getNextBetanoEvents = async ({
   hours = 3,
   sport = "futebol",
 }: {
@@ -73,10 +67,11 @@ const getNextEvents = async ({
 
   try {
     const { data } = await betanoInstance.get(URL);
+    const blocks = data?.data?.blocks || [];
+    const events = blocks[0]?.events || [];
+    const response = { events: getBestEvents(events) };
 
-    const events = data.data.blocks[0].events;
-
-    return getBestEvents(events);
+    return response;
   } catch (err) {
     console.log(err);
 
@@ -84,4 +79,4 @@ const getNextEvents = async ({
   }
 };
 
-export { getNextEvents };
+export { getNextBetanoEvents };

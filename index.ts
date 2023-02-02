@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import environment from "./environment";
-import { getNextEvents } from "./services/betanoIntagration";
+import { getNextBetanoEvents } from "./services/betanoIntagration";
 
 const app: Express = express();
 const port = environment.PORT;
@@ -15,7 +15,7 @@ app.get("/next-bets", async (req: Request, res: Response) => {
   try {
     const hoursRange =  req?.query?.hoursRange || 3;
     res.set("Access-Control-Allow-Origin", "http://localhost:3001");
-    const events = await getNextEvents({ hours: hoursRange });
+    const events = await getNextBetanoEvents({ hours: hoursRange });
 
     res.json({ events });
   } catch (err) {
@@ -24,5 +24,5 @@ app.get("/next-bets", async (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`⚡️[server]: Server is running at https://localhost:${port}`);
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
